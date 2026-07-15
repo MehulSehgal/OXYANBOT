@@ -76,6 +76,7 @@ def admin():
       break
     else:
       print("wrong choice")
+       
 def user():
   name=(input(Fore.LIGHTCYAN_EX+"OXYAN: Enter your sweet name: "))
   print('\033[39m')
@@ -92,6 +93,7 @@ def user():
       print("Sorry can't understand!")
     else:
       print(Fore.LIGHTCYAN_EX+"OXYAN: ",q[user])
+       
 def feedback():
   print(Fore.YELLOW+"Thank you for taking the time to rate me. I appreciate any feedback to help me improve.\nIf there's anything specific you'd like to share, please feel free to let me know.\nYour ratings from 0 to 10 will go a long way in helping me better serve you.")
   feedback=input("Your feedback: ")
@@ -108,6 +110,7 @@ def feedback():
     print("Wow! Your rating of",ratings,"is amazing! We are so glad that you had an excellent experience with us.")
   else:
     print("Invalid rating. Please enter a number between 0 and 10.")
+     
 def help():
   print(Fore.LIGHTMAGENTA_EX+"\t\t\t\t\t\t\t\tHOW TO USE\n")
   print(Fore.LIGHTGREEN_EX+"i. Five menus are provided\n (a)ADMIN \n In admin menu you can train you Oxyan bot by adding training data(adding more questions and their replies),delete data(removing questions from the data) and modify the data(edit the questions and their replies)\n ")
@@ -115,6 +118,7 @@ def help():
   print(Fore.LIGHTCYAN_EX+"(c) EXIT\n Exit menu is used to exit the Oxyan Bot")
   print(Fore.MAGENTA+"(d) FEEDBACK\n Feedback menu is used to give feedback to Oxyan bot parent company so that in future they will be able to provide you great services.")
   print(Fore.YELLOW+"(e) HELP\n In Help menu you will be able to understand that how Oxyan bot works.")
+   
 def working():
  while True:
    print(Fore.LIGHTRED_EX+"\t\t1.admin\n")
