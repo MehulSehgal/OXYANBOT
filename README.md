@@ -47,7 +47,3 @@ On launch, you'll see a menu with five options:
 3. **Help** – see an explanation of each menu
 4. **Feedback** – rate your experience (0–10) and leave a comment
 5. **Exit** – close the bot
-
-## License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
